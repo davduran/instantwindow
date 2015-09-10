@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    div(ng-controller="InstantController")
+        div(class="container-fluid")
+            input(type="text", ng-model="msg")
+            div(id="cuadro" style="width:40px; height:40px; background-color:#333333; position:absolute")
